@@ -18,7 +18,10 @@ class Home extends Component {
         <div className="Home-details">
           <Typography>
             <Title>TKLogger</Title>
-            <Paragraph>TKLogger 是一款高可用的日志库，分别有Android、iOS、Flutter 版本</Paragraph>
+            <Paragraph className="Home-desc">
+              TKLogger 是个多端一致的日志库，分别支持 Android、iOS、Flutter 平台，
+              默认实现 日志控制台输出、文件存储，也可以自定义日志上传云端、日志拦截器等。
+            </Paragraph>
           </Typography>
           <br />
           <Space size={15}>
