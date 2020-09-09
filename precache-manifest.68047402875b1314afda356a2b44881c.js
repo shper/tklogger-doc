@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2db54d851d2b03e1958f12fa375c5af",
+    "revision": "0cec2809eae2c0b310ae17365ecaafb3",
     "url": "/tklogger-doc/index.html"
   },
   {
-    "revision": "f09d212a0c77a11ddf1e",
+    "revision": "98bcb1bb0b34b3791446",
     "url": "/tklogger-doc/static/css/2.6df4c8f8.chunk.css"
   },
   {
-    "revision": "67162e36865c69dfc39d",
+    "revision": "4091eb949d901b17a7c2",
     "url": "/tklogger-doc/static/css/main.2327be26.chunk.css"
   },
   {
-    "revision": "f09d212a0c77a11ddf1e",
-    "url": "/tklogger-doc/static/js/2.a5f486bb.chunk.js"
+    "revision": "98bcb1bb0b34b3791446",
+    "url": "/tklogger-doc/static/js/2.321b5fbb.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/tklogger-doc/static/js/2.a5f486bb.chunk.js.LICENSE.txt"
+    "url": "/tklogger-doc/static/js/2.321b5fbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67162e36865c69dfc39d",
-    "url": "/tklogger-doc/static/js/main.4a87417d.chunk.js"
+    "revision": "4091eb949d901b17a7c2",
+    "url": "/tklogger-doc/static/js/main.33335ec2.chunk.js"
   },
   {
     "revision": "d8812a9f70afdb1247b2",
