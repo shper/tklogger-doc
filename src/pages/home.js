@@ -22,12 +22,12 @@ class Home extends Component {
           </Typography>
           <br />
           <Space size={15}>
-          <Button type="primary" onClick={this.gotoDetailPage}>开始使用</Button>
-          <Button icon={<GithubOutlined />} onClick={this.openGithub}>Github</Button>
-        </Space>
+            <Button type="primary" onClick={this.gotoDetailPage}>开始使用</Button>
+            <Button icon={<GithubOutlined />} onClick={this.openGithub}>Github</Button>
+          </Space>
         </div>
       </div>
-      );
+    );
   }
 
   gotoDetailPage() {
@@ -36,7 +36,7 @@ class Home extends Component {
 
   openGithub() {
     var win = window.open("https://github.com/shper", '_blank');
-    win.focus();  
+    win.focus();
   }
 
 }
