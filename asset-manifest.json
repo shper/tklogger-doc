@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/tklogger-doc/static/css/main.2327be26.chunk.css",
-    "main.js": "/tklogger-doc/static/js/main.33335ec2.chunk.js",
-    "main.js.map": "/tklogger-doc/static/js/main.33335ec2.chunk.js.map",
+    "main.css": "/tklogger-doc/static/css/main.cad67b8b.chunk.css",
+    "main.js": "/tklogger-doc/static/js/main.0a12a720.chunk.js",
+    "main.js.map": "/tklogger-doc/static/js/main.0a12a720.chunk.js.map",
     "runtime-main.js": "/tklogger-doc/static/js/runtime-main.142c0678.js",
     "runtime-main.js.map": "/tklogger-doc/static/js/runtime-main.142c0678.js.map",
     "static/css/2.6df4c8f8.chunk.css": "/tklogger-doc/static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.321b5fbb.chunk.js": "/tklogger-doc/static/js/2.321b5fbb.chunk.js",
-    "static/js/2.321b5fbb.chunk.js.map": "/tklogger-doc/static/js/2.321b5fbb.chunk.js.map",
+    "static/js/2.86189aec.chunk.js": "/tklogger-doc/static/js/2.86189aec.chunk.js",
+    "static/js/2.86189aec.chunk.js.map": "/tklogger-doc/static/js/2.86189aec.chunk.js.map",
     "index.html": "/tklogger-doc/index.html",
-    "precache-manifest.68047402875b1314afda356a2b44881c.js": "/tklogger-doc/precache-manifest.68047402875b1314afda356a2b44881c.js",
+    "precache-manifest.af90a4fce85b34cbc0492e8d1e18deb9.js": "/tklogger-doc/precache-manifest.af90a4fce85b34cbc0492e8d1e18deb9.js",
     "service-worker.js": "/tklogger-doc/service-worker.js",
     "static/css/2.6df4c8f8.chunk.css.map": "/tklogger-doc/static/css/2.6df4c8f8.chunk.css.map",
-    "static/css/main.2327be26.chunk.css.map": "/tklogger-doc/static/css/main.2327be26.chunk.css.map",
-    "static/js/2.321b5fbb.chunk.js.LICENSE.txt": "/tklogger-doc/static/js/2.321b5fbb.chunk.js.LICENSE.txt",
-    "static/media/back.jpg": "/tklogger-doc/static/media/back.8636ddb9.jpg",
+    "static/css/main.cad67b8b.chunk.css.map": "/tklogger-doc/static/css/main.cad67b8b.chunk.css.map",
+    "static/js/2.86189aec.chunk.js.LICENSE.txt": "/tklogger-doc/static/js/2.86189aec.chunk.js.LICENSE.txt",
+    "static/media/detail.css": "/tklogger-doc/static/media/exception.9ed13bbe.svg",
     "static/media/home.css": "/tklogger-doc/static/media/header-bg-right.db1600ae.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.142c0678.js",
     "static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.321b5fbb.chunk.js",
-    "static/css/main.2327be26.chunk.css",
-    "static/js/main.33335ec2.chunk.js"
+    "static/js/2.86189aec.chunk.js",
+    "static/css/main.cad67b8b.chunk.css",
+    "static/js/main.0a12a720.chunk.js"
   ]
 }
