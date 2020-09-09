@@ -36,7 +36,7 @@ class Home extends Component {
   }
 
   gotoDetailPage() {
-    this.props.history.push('/detail');
+    this.props.history.push('/docs');
   }
 
   openGithub(tag) {

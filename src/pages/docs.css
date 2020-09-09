@@ -1,17 +1,17 @@
-.Detail {
+.Docs {
     background-color: #F4F6F9;
     padding-bottom: 1px;
     min-width: 1200px;
     min-height: 100vh;
 }
 
-.Detail-header {
+.Docs-header {
     background-color: white;
     width: 100%;
     display: flex;
 }
 
-.Detail-header ul {
+.Docs-header ul {
     height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -19,17 +19,17 @@
     align-items: center;
 }
 
-.Detail-header ul li {
+.Docs-header ul li {
     font-size: 16px;
     list-style: none;
     padding-left: 30px;
 }
 
-.Detail-header-Link {
+.Docs-header-Link {
     color: black;
 }
 
-.Detail-title {
+.Docs-title {
     display: inline-block;
     color: #6190e8;
     font-size: 26px;

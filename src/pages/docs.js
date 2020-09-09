@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './detail.css';
+import './docs.css';
 import { Layout, Menu, Button } from 'antd';
 import { DesktopOutlined, LaptopOutlined, GithubOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
-class Detail extends Component {
+class Docs extends Component {
 
   constructor(props) {
     super(props);
@@ -16,11 +16,11 @@ class Detail extends Component {
   render() {
     return (
       <Layout>
-        <Header className="Detail-header" >
-          <Link className="Detail-title" to="/">TKLogger</Link>
+        <Header className="Docs-header" >
+          <Link className="Docs-title" to="/">TKLogger</Link>
           <ul>
-            <li><Link className="Detail-header-Link" to="/">首页</Link></li>
-            <li><Link className="Detail-header-Link" to="/detail">文档</Link></li>
+            <li><Link className="Docs-header-Link" to="/">首页</Link></li>
+            <li><Link className="Docs-header-Link" to="/docs">文档</Link></li>
             <li><a target="_blank" href="https://github.com/shper" rel="noopener noreferrer"><GithubOutlined style={{ color: "#000", fontSize: 22 }} /></a></li>
           </ul>
         </Header>
@@ -49,7 +49,7 @@ class Detail extends Component {
                 minHeight: "100vh",
               }}
             >
-              <div className="Detail">
+              <div className="Docs">
                 <div className="exception-wrap">
                   <div className="exception-img-block">
                     <div className="exception-img-ele" />
@@ -74,4 +74,4 @@ class Detail extends Component {
 
 }
 
-export default Detail;
+export default Docs;
