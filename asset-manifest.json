@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tklogger-doc/static/css/main.da377b0c.chunk.css",
-    "main.js": "/tklogger-doc/static/js/main.ce601323.chunk.js",
-    "main.js.map": "/tklogger-doc/static/js/main.ce601323.chunk.js.map",
+    "main.js": "/tklogger-doc/static/js/main.119b57e4.chunk.js",
+    "main.js.map": "/tklogger-doc/static/js/main.119b57e4.chunk.js.map",
     "runtime-main.js": "/tklogger-doc/static/js/runtime-main.142c0678.js",
     "runtime-main.js.map": "/tklogger-doc/static/js/runtime-main.142c0678.js.map",
     "static/css/2.6df4c8f8.chunk.css": "/tklogger-doc/static/css/2.6df4c8f8.chunk.css",
     "static/js/2.86189aec.chunk.js": "/tklogger-doc/static/js/2.86189aec.chunk.js",
     "static/js/2.86189aec.chunk.js.map": "/tklogger-doc/static/js/2.86189aec.chunk.js.map",
     "index.html": "/tklogger-doc/index.html",
-    "precache-manifest.3c0f362ff47ebdb27042306873ca7b8a.js": "/tklogger-doc/precache-manifest.3c0f362ff47ebdb27042306873ca7b8a.js",
+    "precache-manifest.1995374c0974f6598fce88751ebfa4e3.js": "/tklogger-doc/precache-manifest.1995374c0974f6598fce88751ebfa4e3.js",
     "service-worker.js": "/tklogger-doc/service-worker.js",
     "static/css/2.6df4c8f8.chunk.css.map": "/tklogger-doc/static/css/2.6df4c8f8.chunk.css.map",
     "static/css/main.da377b0c.chunk.css.map": "/tklogger-doc/static/css/main.da377b0c.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.6df4c8f8.chunk.css",
     "static/js/2.86189aec.chunk.js",
     "static/css/main.da377b0c.chunk.css",
-    "static/js/main.ce601323.chunk.js"
+    "static/js/main.119b57e4.chunk.js"
   ]
 }
