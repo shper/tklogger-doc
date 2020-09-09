@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+
+.Home {
+  display: -webkit-flex; /* Safari */
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(./../header-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  min-height: 100vh;
+}
+
+.Home-details {
+  position: relative;
+  z-index: 9999;
+  margin-top: 400px;
+  padding: 0px 150px;
+  min-height: 50vh;
+  background-image: url(./../header-bg-left.svg);
+}
