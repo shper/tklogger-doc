@@ -26,7 +26,9 @@ class Home extends Component {
           <br />
           <Space size={15}>
             <Button type="primary" onClick={this.gotoDetailPage}>开始使用</Button>
-            <Button icon={<GithubOutlined />} onClick={this.openGithub}>Github</Button>
+            <Button icon={<GithubOutlined />} onClick={() => this.openGithub("iOS")}>iOS</Button>
+            <Button icon={<GithubOutlined />} onClick={() => this.openGithub("Android")}>Android</Button>
+            <Button icon={<GithubOutlined />} onClick={() => this.openGithub("Flutter")}>Flutter</Button>
           </Space>
         </div>
       </div>
@@ -37,8 +39,23 @@ class Home extends Component {
     this.props.history.push('/detail');
   }
 
-  openGithub() {
-    var win = window.open("https://github.com/shper", '_blank');
+  openGithub(tag) {
+    var url = "https://github.com/shper/";
+    switch (tag) {
+      case "iOS":
+        url += "/TKLogger-iOS";
+        break;
+      case "Android":
+        url += "/TKLogger-Android";
+        break;
+      case "Flutter":
+        url += "/TKLogger-Flutter";
+        break;
+      default:
+        url += "";
+    }
+
+    var win = window.open(url, '_blank');
     win.focus();
   }
 
