@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './detail.css';
 import { Layout, Menu, Button } from 'antd';
-import { DesktopOutlined, LaptopOutlined } from '@ant-design/icons';
+import { DesktopOutlined, LaptopOutlined, GithubOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
@@ -15,11 +16,16 @@ class Detail extends Component {
   render() {
     return (
       <Layout>
-        <Header className="header">
-          <div className="Detail-title" >TKLogger</div>
+        <Header className="Detail-header" >
+          <Link className="Detail-title" to="/">TKLogger</Link>
+          <ul>
+            <li><Link className="Detail-header-Link" to="/">首页</Link></li>
+            <li><Link className="Detail-header-Link" to="/detail">文档</Link></li>
+            <li><a target="_blank" href="https://github.com/shper" rel="noopener noreferrer"><GithubOutlined style={{ color: "#000", fontSize: 22 }} /></a></li>
+          </ul>
         </Header>
         <Layout>
-          <Sider width={200} className="site-layout-background">
+          <Sider width={300} className="site-layout-background">
             <Menu
               mode="inline"
               defaultSelectedKeys={['1']}

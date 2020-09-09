@@ -5,9 +5,35 @@
     min-height: 100vh;
 }
 
+.Detail-header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.Detail-header ul {
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.Detail-header ul li {
+    font-size: 16px;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.Detail-header-Link {
+    color: black;
+}
+
 .Detail-title {
-    color: white;
-    font-size: large;
+    display: inline-block;
+    color: #6190e8;
+    font-size: 26px;
+    flex: 1 1;
 }
 
 .exception-wrap {
