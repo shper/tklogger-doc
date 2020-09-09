@@ -1,23 +1,35 @@
 import React, { Component } from 'react'
-import Background from './../back.jpg';
-
-//定义背景样式
-
-var sectionStyle = {
-  width: "100%",
-  height: "100vh",
-// makesure here is String确保这里是一个字符串，以下是es6写法
-  backgroundImage: `url(${Background})` 
-};
+import './detail.css';
+import { Button } from 'antd';
 
 class Detail extends Component {
 
+  constructor(props) {
+    super(props);
+    this.gobackHome = this.gobackHome.bind(this);
+  }
+
   render() {
     return(
-      <div style={sectionStyle}>
+      <div className="Detail">
+        <div className="exception-wrap">
+          <div className="exception-img-block">
+            <div className="exception-img-ele"/>
+          </div>
+          <div className="exception-content">
+            <h1>敬请期待</h1>
+            <div className="exception-desc">网站建设中...</div>
+            <Button type="primary" onClick={this.gobackHome}>返回首页</Button>
+          </div>
+        </div>
       </div>
     ); 
   }
 
+  gobackHome() {
+    this.props.history.push('/');
+  }
+
 }
+
 export default Detail;

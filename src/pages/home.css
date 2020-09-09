@@ -7,7 +7,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(./../header-bg-right.svg);
+  background-image: url(./../assets/header-bg-right.svg);
   background-repeat: no-repeat;
   background-position: 100% 0;
   min-height: 100vh;
@@ -19,5 +19,5 @@
   margin-top: 400px;
   padding: 0px 150px;
   min-height: 50vh;
-  background-image: url(./../header-bg-left.svg);
+  background-image: url(./../assets/header-bg-left.svg);
 }

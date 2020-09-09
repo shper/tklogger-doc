@@ -2,7 +2,7 @@
   "name": "tklogger-doc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://shper.github.io/tklogger-doc",
   "dependencies": {
     "antd": "^4.6.3",
     "react": "^16.13.1",
