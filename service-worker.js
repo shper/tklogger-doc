@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tklogger-doc/precache-manifest.1995374c0974f6598fce88751ebfa4e3.js"
+  "/tklogger-doc/precache-manifest.aeb6f3add7724e115b2bf980c296142a.js"
 );
 
 self.addEventListener('message', (event) => {
